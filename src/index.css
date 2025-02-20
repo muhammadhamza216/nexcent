@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+html{
+ scroll-behavior: smooth;
+}
+:root {
+    --neutralSi1ver: #F5F7FA;
+    --neutralDGrey: #4D4D4D;
+    --brandPrimary: #4CAF4F;
+    --neutralGrey: #717171;
+    --neutralWhite:#FFFFFF;
+    --neutralBlack:#263238;
+    --neutralSilver: #F5F7FA;
+  }
+  
+  .inter-uniquifier {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400,500,600,700,800,900;
+    font-style: normal;
+  }
+
+  @theme{
+    --breakpoint-sm: 768px;
+    --breakpoint-md: 1024px;
+    --breakpoint-lg: 1280px;
+  }
+
+  .activeMenu{
+    left:0;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.rounded-custom {
+  border-radius: 97% 3% 100% 0% / 34% 62% 38% 66% ;
+  -webkit-border-radius: 97% 3% 100% 0% / 34% 62% 38% 66% ;
+  -moz-border-radius: 97% 3% 100% 0% / 34% 62% 38% 66% ;
+  -ms-border-radius: 97% 3% 100% 0% / 34% 62% 38% 66% ;
+  -o-border-radius: 97% 3% 100% 0% / 34% 62% 38% 66% ;
+}
