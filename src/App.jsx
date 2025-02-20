@@ -1,4 +1,4 @@
-import Onepageapp from "./onepageapp"
+import Onepageapp from "./Onepageapp"
 
 function App() {
   return (
